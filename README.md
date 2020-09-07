@@ -10,7 +10,7 @@ The purpose of this analysis is to provide Steve with a fast and efficient way t
 In order to improve upon our original code, it was essential that we reformed the nesting order of our loops. The image below illustrates our original code that featured; ticker, totalVolume, StartingPrice, and EndingPrice as variables that functioned separately throughout each ticker array. 
 ![Original_Code:](./Resources/Original_Code.png)
 
-## Attached are the run times associated with the original code. 
+### Attached are the run times associated with the original code. 
 ![Original_RunTime(2017):](./Resources/Original_RunTime(2017).png)
 ![Original_RunTime(2018):](./Resources/Original_RunTime(2018).png)
 
@@ -18,7 +18,7 @@ In order to improve upon our original code, it was essential that we reformed th
 For the purpose of improving upon this code and therefore making it more efficient four separate arrays were created; tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices. The first array “tickers” was established to represent the ticker symbol attributed to a given stock, in doing so the other three arrays mentioned previously were conjoined with the ticker array to create a tickerIndex variable. This variable allowed us to assign the tickerVolumes,tickerStartingPrices as well as tickerEndingPrices to each respective ticker previous to iterating through the data set. The code below illustrates the refactored code, and the establishment of the tickerIndex. 
 ![Refactored_Code:](./Resources/Refactored_Code.png)
 
-## Attached are the run times associated with the refactored code. 
+### Attached are the run times associated with the refactored code. 
 ![Refactored_RunTime(2017):](./Resources/Refactored_RunTime(2017).png)
 ![Refactored_RunTime(2018):](./Resources/Refactored_RunTime(2018).png)
 
@@ -28,3 +28,10 @@ As can be observed from the comparison of the original code run times and the re
 Overall, while analyzing the stock’s performance it is important to note that the stock returns in 2017 were considerably higher than in 2018, which is accompanied by a significant increase in the total daily volume of stocks in 2018 from 2017 respectively. Specifically, DQ experienced a significant decrease in return following 2017 which may be attributed to its increased total daily volume being higher in 2018 than in the previous year.  
 ![StockAnalysis(2017:](./Resources/StockAnalysis(2017.png)
 ![StockAnalysis(2018):](./Resources/StockAnalysis(2018).png)
+
+
+#Summary
+
+##Advantages and Disadvantages of Refactoring Code
+Refactoring code allows us to improve upon previous codes and in turn make them more efficient by reconfiguring and improving upon the original code to introduce new variables, arrays, etc. that better analyze the given data set or task.  
+However, there are also disadvantages attributed to the refactoring of code. Firstly, it could potentially introduce new errors and/or bugs that were not present or in the original code; if the code is not transferred or understood properly by the user it could lead to destruction of a code that was previously successful. Therefore, it becomes essential to maintain an exception understanding of what your code is producing and its attributes. 
