@@ -19,12 +19,12 @@ For the purpose of improving upon this code and therefore making it more efficie
 ![Refactored_Code:](./Resources/Refactored_Code.png)
 
 ## Attached are the run times associated with the refactored code. 
-![Refactored_RunTime(2017):](./Resources/ Refactored_RunTime(2017).png)
-![Refactored_RunTime(2018):](./Resources/ Refactored_RunTime(2018).png)
+![Refactored_RunTime(2017):](./Resources/Refactored_RunTime(2017).png)
+![Refactored_RunTime(2018):](./Resources/Refactored_RunTime(2018).png)
 
 As can be observed from the comparison of the original code run times and the refactored code run times the analysis runs significantly faster by using the refactored code and therefore the tickerIndex. More specifically, the refactored code runs approximately five seconds faster than the original. 
 
 ## Stock Performance
 Overall, while analyzing the stock’s performance it is important to note that the stock returns in 2017 were considerably higher than in 2018, which is accompanied by a significant increase in the total daily volume of stocks in 2018 from 2017 respectively. Specifically, DQ experienced a significant decrease in return following 2017 which may be attributed to its increased total daily volume being higher in 2018 than in the previous year.  
-![StockAnalysis(2017:](./Resources/ StockAnalysis (2017.png)
-![StockAnalysis(2018):](./Resources/ StockAnalysis (2018).png)
+![StockAnalysis(2017:](./Resources/StockAnalysis (2017.png)
+![StockAnalysis(2018):](./Resources/StockAnalysis (2018).png)
