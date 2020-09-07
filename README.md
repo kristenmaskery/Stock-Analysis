@@ -26,7 +26,9 @@ As can be observed from the comparison of the original code run times and the re
 
 ## Stock Performance
 Overall, while analyzing the stock’s performance it is important to note that the stock returns in 2017 were considerably higher than in 2018, which is accompanied by a significant increase in the total daily volume of stocks in 2018 from 2017 respectively. Specifically, DQ experienced a significant decrease in return following 2017 which may be attributed to its increased total daily volume being higher in 2018 than in the previous year.  
+### 2017:
 ![StockAnalysis(2017:](./Resources/StockAnalysis(2017).png)
+### 2018:
 ![StockAnalysis(2018):](./Resources/StockAnalysis(2018).png)
 
 
